@@ -1,10 +1,15 @@
 h1, h2, h3, h4 ,h5, h6, p{
   margin: 0;
-  border: #ff0000 solid 1px;
+ /* border: #ff0000 solid 1px;*/
 }
 
 div{
-  border: #ff0000 solid 1px;
+  /*border: #ff0000 solid 1px;*/
+}
+
+.centered-block{
+  margin: 0 auto 0;
+  text-align: center;
 }
 
 :root {
@@ -151,27 +156,46 @@ div{
 
 .section-title {
   width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle{
   width: 60%;
-}
-
-.centered-block{
-  margin: 0 auto 0;
-  text-align: center;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
 }
 
 .table{
+  padding: 0;
   width: 1100px;
   display: flex;
   flex-direction: row;
   height: 500px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .table__cell{
-  min-width: 250px;
-  display: block;
+  list-style: none;
+  margin: 60px 0 0;
+  width: 250px;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text{
+  margin: 20px 0 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
