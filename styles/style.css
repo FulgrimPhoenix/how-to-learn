@@ -41,7 +41,7 @@ h1, h2, h3, h4 ,h5, h6, p, ul, li{
 
 
 .header__title{
-  width: 730px;
+  max-width: 730px;
   padding-left: 64px;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   font-size: 102px;
@@ -54,7 +54,7 @@ h1, h2, h3, h4 ,h5, h6, p, ul, li{
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-style: normal;
@@ -191,7 +191,7 @@ h1, h2, h3, h4 ,h5, h6, p, ul, li{
 
 .feynman{
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color: var(--color-base1);
   background-image: url(../images/feynman.png);
   width: 100%;
@@ -205,7 +205,7 @@ h1, h2, h3, h4 ,h5, h6, p, ul, li{
 .feynman__title{
   padding-top: 100px;
   margin-bottom: 70px;
-  width: 648px;
+  max-width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
