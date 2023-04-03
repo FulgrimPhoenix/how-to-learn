@@ -1,10 +1,10 @@
 h1, h2, h3, h4 ,h5, h6, p{
   margin: 0;
- /* border: #ff0000 solid 1px;*/
+  border: #ff0000 solid 1px;
 }
 
 div{
-  /*border: #ff0000 solid 1px;*/
+  border: #ff0000 solid 1px;
 }
 
 .centered-block{
@@ -196,6 +196,46 @@ div{
   line-height: 1.2;
   font-size: 18px;
   font-style: normal;
+}
+
+.feynman{
+  position: relative;
+  height: 890px;
+  background-color: var(--color-base1);
+  background-image: url(../images/feynman.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 0px left 0px;
+  background-size: 867px 637px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feynman__title{
+  padding-top: 100px;
+  margin-bottom: 70px;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.feynman__subtitle{
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  z-index: 2;
+}
+
+.feynman__link{
+  position: absolute;
+  line-height: 51px;
+  font-size: 36px;
+  font-style: normal;
+  top: 50%;
+  right: 48px;
+  color: var(--color-base2);
 }
 
 /* и элемента с модификатором вида ключ-значение */
