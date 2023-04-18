@@ -1,0 +1,5 @@
+.header__link{
+    color: var(--color-base2);
+    text-decoration: none;
+    z-index: 3;
+  }
