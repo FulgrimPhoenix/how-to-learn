@@ -1,4 +1,4 @@
-.column-link{
+.footer__column-link{
     text-decoration: none;
     color: #fff;
     line-height: 30px;
@@ -7,6 +7,6 @@
     transition: .2s;
   }
 
-  .column__link:hover{
+  .footer__column-link:hover{
     color: rgb(255, 0, 242);
   }
