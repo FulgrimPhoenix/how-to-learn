@@ -4,4 +4,9 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+    transition: .2s;
+  }
+
+  .column__link:hover{
+    color: rgb(255, 0, 242);
   }

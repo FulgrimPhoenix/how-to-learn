@@ -8,4 +8,9 @@
     color: var(--color-base2);
     text-decoration: none;
     z-index: 2;
+    transition: .2;
+  }
+
+  .feynman__link:hover{
+    color: rgb(255, 0, 242);
   }
